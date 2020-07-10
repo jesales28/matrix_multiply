@@ -1,0 +1,3 @@
+# Makefile to compile to run with second optimzation for  array_row_hw2.f90
+array_row_hw2: array_row_hw2.f90
+	gfortran array_row_hw2.f90 -O0 -fdefault-real-8 -fdefault-double-8

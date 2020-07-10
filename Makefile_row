@@ -1,0 +1,3 @@
+# Makefile to compile and run with no flags or optimizations for array_row_hw2.f90
+array_row_hw2: array_row_hw2.f90
+	gfortran array_row_hw2.f90
